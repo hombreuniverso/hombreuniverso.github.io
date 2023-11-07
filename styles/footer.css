@@ -1,0 +1,99 @@
+/*Common Footer Styles*/
+.footer {
+    height: 190px;
+	background-color: #11122b;
+	color: #cbcbcb;	
+    font-family: "Ubuntu Condensed, sans-serif";
+	padding: 50px 100px 60px 100px;
+    /*Make a Flex Container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+    }
+
+.footer > .footer-inner {
+    width: 500px;
+}
+
+/* Footer Components */
+
+/* Image */
+.footer > .footer-inner > .logo-footer {
+    /*Make a Flex Container*/
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+ .footer > .footer-inner > .logo-footer > img {  
+    width: 100px;
+    height: 100%; 
+    filter: brightness(50%);
+    opacity: 0.5;
+ }
+
+ /* Phone & Hours */
+ .footer > .footer-inner > .phone-hours-footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-inner > .phone-hours-footer > .hours-footer {
+    margin-left: 20px;
+    color: #cea135;
+    text-transform: uppercase;
+}
+
+.footer > .footer-inner > .links-wrapper-footer {
+    margin-top: 20px;
+    /* Create Flex Container */
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .footer-inner > .links-wrapper-footer > .nav-link-footer {
+    width: 75%;
+    text-align: center;
+}
+
+.footer > .footer-inner > .links-wrapper-footer > .nav-link-footer > a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    width: 75%;
+    text-align: center;
+}
+
+.footer > .footer-inner > .links-wrapper-footer > .nav-link-footer > a:hover {
+    color: goldenrod;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-inner > .footer-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px; 
+    font-size: 1.5em;
+}
+
+.footer > .footer-inner > .footer-icons > a  {
+    color: white;
+    text-decoration: none;   
+}
+
+.footer > .footer-inner  .footer-icons > a:hover {
+    transition-duration: 0.5s;
+    color: goldenrod;
+}
+
+.footer > .footer-inner > .copyright-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 0.7em;
+}
+
